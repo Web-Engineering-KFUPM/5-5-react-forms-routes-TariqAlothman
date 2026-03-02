@@ -155,16 +155,16 @@ export default function App() {
         <div className="brand">🧑‍💻 Student Portal</div>
         <div className="links">
           <NavLink to="/" end className="navlink">Home Page</NavLink>
-          <NavLink to="/about" end className="navlink">About</NavLink>
-          <NavLink to="/registration" end className="navlink">Registration</NavLink>
+          <NavLink to="/About" end className="navlink">About</NavLink>
+          <NavLink to="/Registration" end className="navlink">Registration</NavLink>
         </div>
       </nav>
 
       <main className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/registration" element={<Registration />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Registration" element={<Registration />} />
           <Route path="*" element={<h2>404 — Not Found</h2>} />
         </Routes>
       </main>
